@@ -14,7 +14,7 @@ def hello():
 
 
 
-
+# to run app on specific port here we can add port = 8080
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port = 8080)
